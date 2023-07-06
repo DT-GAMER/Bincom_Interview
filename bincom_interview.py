@@ -31,9 +31,9 @@ color_counts = Counter(all_colors)
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
     host="localhost",
-    database="mydatabase",
-    user="myusername",
-    password="mypassword"
+    database="Interviewdb",
+    user="Bincom",
+    password="mypassword123"
 )
 
 # Create a table to store the colors and their frequencies
